@@ -1,4 +1,4 @@
-% Input parameters 
+% INPUT PARAMETERS
 
 L = 1.6; % Total length of the submarine
 R = 0.115; % Radius of the submarine
