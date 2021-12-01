@@ -25,16 +25,16 @@ rho = 1000; % Water density
 % DISTANCE BETWEEN CG AND DIFFERENT CO'S - rg VECTORS
 
 rgSB = [-0.0548; 0; 0]; % Distance between Submarine body frame and the CG
-rgUSBL = [-0.44; 0; 0.14]; % Distance between USBL bidy frame and the CG
-rgQQ = [-0.7032; 0; 0.13]; % Distance between QQ bidy frame and the CG
-rgANT = [0.3903; 0; 0.245]; % Distance between Antena bidy frame and the CG
-rgRT = [0.49; -0.162; 0]; % Distance between Right Thruster bidy frame and the CG
-rgLT = [0.49; 0.162; 0]; % Distance between Left Thruster bidy frame and the CG
+rgUSBL = [-0.44; 0; 0.14]; % Distance between USBL body frame and the CG
+rgQQ = [-0.7032; 0; 0.13]; % Distance between QQ body frame and the CG
+rgANT = [0.3903; 0; 0.245]; % Distance between Antena body frame and the CG
+rgRT = [0.49; -0.162; 0]; % Distance between Right Thruster body frame and the CG
+rgLT = [0.49; 0.162; 0]; % Distance between Left Thruster body frame and the CG
 
 % BODY MASS MATRIX (in the center of gravity)
 
 M = [52 52 52]; % mass vector - not important
-MBb = [diag(M) zeros(3); zeros(3) Ig]; % BODY MASS MATRIX
+MBb = [diag(M) zeros(3); zeros(3) Ig] % BODY MASS MATRIX
 
 % ADDED MASS MATRIX OF THE SUBMARINE BODY
 
@@ -43,12 +43,12 @@ MgamSB = applytogravityc(rgSB, MbamSB); % added mass matrix - CG
 
 % ADDED MASS MATRIX OF THE USBL
 
-MbamUSBL = Submarine_body_added_mass(R1, H1, rho); % added mass matrix - CO
+MbamUSBL = Vertical_cylinders_added_mass(R1, H1, rho); % added mass matrix - CO
 MgamUSBL = applytogravityc(rgUSBL, MbamUSBL); % added mass matrix - CG
 
 % ADDED MASS MATRIX OF THE QQ
 
-MbamQQ = Submarine_body_added_mass(R2, H2, rho); % added mass matrix - CO
+MbamQQ = Vertical_cylinders_added_mass(R2, H2, rho); % added mass matrix - CO
 MgamQQ = applytogravityc(rgQQ, MbamQQ); % added mass matrix - CG
 
 % ADDED MASS MATRIX OF THE ANTENA
@@ -71,7 +71,7 @@ MgamT = MgamLT + MgamRT; % added mass matrix - CG
 
 % ADDED MASS MATRIX (in the center of gravity)
 
-MAb = MgamT + MgamANT + MgamQQ + MgamUSBL + MgamSB % ADDED MASS MATRIX
+MAb = MgamT + MgamQQ + MgamANT + MgamUSBL + MgamSB % ADDED MASS MATRIX
 
 % GENERALIZED MASS MATRIX (in the center of gravity)
 
