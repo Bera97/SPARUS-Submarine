@@ -36,6 +36,7 @@ K_main(3,5)= int(x*K_main(3,3),[-L/2,L/2]);
 K_main(5,3)=K_main(3,5);
 K_main(2,6)= int(x*K_main(3,3), [-L/2,L/2]);
 K_main(6,2)=K_main(2,6);
+K_main = -K_main;
 
 disp('K_main')
 disp(K_main)
@@ -58,14 +59,15 @@ S2c=W2*T2;
 
 K_antenna(1,1)= 1/2*rho*S2a*Cd_surge;
 K_antenna(2,2)= 1/2*rho*Cd_sway*S2b;
-K_antenna(3,3)= 1/2*rho*Cd_heave*S2c;
+K_antenna(3,3)= 0*1/2*rho*Cd_heave*S2c;
 K_antenna(4,4)= Cf*(2*(H2*W2)+W2*T2);
 K_antenna(5,5)= int((x^2)*K_antenna(3,3), [-T2/2,T2/2]);
 K_antenna(6,6)= int((x^2)*K_antenna(2,2), [-T2/2,T2/2]);
 K_antenna(3,5)= int(x*K_antenna(3,3),[-T2/2,T2/2]);
-K_antenna(5,3)=K_antenna(3,5);
+K_antenna(5,3)= K_antenna(3,5);
 K_antenna(2,6)= int(x*K_antenna(3,3), [-T2/2,T2/2]);
-K_antenna(6,2)=K_antenna(2,6);
+K_antenna(6,2)= K_antenna(2,6);
+K_antenna = -K_antenna;
 
 disp('K_antenna')
 disp(K_antenna)
@@ -87,7 +89,7 @@ S3c=pi*R3^2;
 
 K_USBL(1,1)= 1/2*rho*S3a*Cd_surge;
 K_USBL(2,2)= Cd_sway*1/2*rho*S3b;
-K_USBL(3,3)= Cd_heave*1/2*rho*S3c;
+K_USBL(3,3)= 0*Cd_heave*1/2*rho*S3c;
 K_USBL(4,4)= Cf*(2*(2*R3*H3)+pi*R3^2);
 K_USBL(5,5)= int((x^2)*K_USBL(3,3), [-R3/2,R3/2]);
 K_USBL(6,6)= int((x^2)*K_USBL(2,2), [-R3/2,R3/2]);
@@ -95,6 +97,7 @@ K_USBL(3,5)= int(x*K_USBL(3,3),[-R3/2,R3/2]);
 K_USBL(5,3)=K_USBL(3,5);
 K_USBL(2,6)= int(x*K_USBL(3,3), [-R3/2,R3/2]);
 K_USBL(6,2)=K_USBL(2,6);
+K_USBL = -K_USBL;
 
 disp('K_USBL')
 disp(K_USBL)
@@ -116,7 +119,7 @@ S4c=pi*R4^2;
 
 K_QQ(1,1)= 1/2*rho*S4a*Cd_surge;      
 K_QQ(2,2)= Cd_sway*1/2*rho*S4b;
-K_QQ(3,3)= Cd_heave*1/2*rho*S4c;
+K_QQ(3,3)= 0*Cd_heave*1/2*rho*S4c;
 K_QQ(4,4)= Cf*(2*(2*R4*H4)+pi*R4^2);
 K_QQ(5,5)= int((x^2)*K_QQ(3,3), [-R4/2,R4/2]);
 K_QQ(6,6)= int((x^2)*K_QQ(2,2), [-R4/2,R4/2]);
@@ -124,6 +127,7 @@ K_QQ(3,5)= int(x*K_QQ(3,3),[-R4/2,R4/2]);
 K_QQ(5,3)=K_QQ(3,5);
 K_QQ(2,6)= int(x*K_QQ(3,3), [-R4/2,R4/2]);
 K_QQ(6,2)=K_QQ(2,6);
+K_QQ = -K_QQ;
 
 disp('K_QQ')
 disp(K_QQ)
@@ -139,15 +143,15 @@ W5 = 0.106; % Aproximative width of the thruster assembly
 K_M1=zeros(6); %initialise an empty K matrix
 
 Cd_surge= 0.17; %because L5/2R5~2.7
-Cd_sway= 0.3; %because circular rod
-Cd_heave= Cd_sway; %because symmetry
+Cd_sway= 2.1; %because plate
+Cd_heave= 2.3; %because plate
 
 S5a=pi*R5^2; %surface of the first coeff
-S5b=2*W5*L5;
-S5c=2*R5*L5;
+S5b=2*R5*L5;
+S5c=W5*L5;
 
 K_M1(1,1)= 1/2*rho*S5a*Cd_surge;
-K_M1(2,2)= Cd_sway*1/2*rho*S5b;
+K_M1(2,2)= 0*Cd_sway*1/2*rho*S5b;
 K_M1(3,3)= Cd_heave*1/2*rho*S5c;
 K_M1(4,4)= Cf*(2*pi*R5*L5);
 K_M1(5,5)= int((x^2)*K_M1(3,3), [-L5/2,L5/2]);
@@ -156,6 +160,7 @@ K_M1(3,5)= int(x*K_M1(3,3),[-L5/2,L5/2]);
 K_M1(5,3)=K_M1(3,5);
 K_M1(2,6)= int(x*K_M1(3,3), [-L5/2,L5/2]);
 K_M1(6,2)=K_M1(2,6);
+K_M1 = -K_M1;
 
 disp('K_M1')
 disp(K_M1)

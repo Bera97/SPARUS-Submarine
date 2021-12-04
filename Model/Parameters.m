@@ -2,7 +2,7 @@ function Para=Parameters()
 
 Global_Mass_Matrix;
 Thruster_Mapping;
-Dragmatrix;
+Drag_Matrix;
 
 global Para
 
@@ -211,14 +211,20 @@ Para.rt = [Para.rt1 Para.rt2 Para.rt3] ;
 
 %Thruster gains
 
-Para.kt1 = 28.5    ;
-Para.kt2 = 30    ;
-Para.kt3 = 30    ;
+Para.Rkt1 = 28.5;
+Para.Rkt2 = 30;
+Para.Rkt3 = 30;
+
+Para.Fkt1 = 55;
+Para.Fkt2 = 71.5;
+Para.Fkt3 = 71.5;
 
 
 %Thruster gain vectors
 
-Para.Kt=[Para.kt1;Para.kt2;Para.kt3];
+Para.RKt=[Para.Rkt1;Para.Rkt2;Para.Rkt3];
+
+Para.FKt=[Para.Fkt1;Para.Fkt2;Para.Fkt3];
 
 %Thruster time constants
 

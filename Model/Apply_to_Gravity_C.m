@@ -7,7 +7,7 @@ function [Mg] = applytogravityc(r,M)
 Od=zeros(3,3);
 Id=eye(3);
 
-H=[Id S_(r); Od Id];
+H=[Id (S_(r))'; Od Id];
 HT=H';
 
 Mg=HT*M*H;

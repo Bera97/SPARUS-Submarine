@@ -90,7 +90,7 @@ Fp = Para.Eb * Thrust ;
 
 
 %% Accelearion computation :
-AccG = Para.Mg\ (-(1*Ff_0+1*Ff_1+1*Ff_2+1*Ff_3+1*Ff_4+1*Ff_5) + Fa + Fg + Fp - Fc) ; % Mg\ = Mg^-1 computed at the gravity center of the Sparus
+AccG = Para.Mg\ ((1*Ff_0+1*Ff_1+1*Ff_2+1*Ff_3+1*Ff_4+1*Ff_5) + Fa + Fg + Fp - Fc) ; % Mg\ = Mg^-1 computed at the gravity center of the Sparus
 
 
 toto = 1;

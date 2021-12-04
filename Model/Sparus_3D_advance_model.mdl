@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.7"
+    ComputedModelVersion    "1.22"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -34,7 +34,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, 0.0, 1933.0, 1064.0]
+      Location		      [-7.0, 0.0, 1932.0, 1064.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -59,34 +59,34 @@ Model {
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "545"
-	  Extents		  [2358.0, 1115.0]
+	  Extents		  [2946.0, 1394.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-314.96034488585377, 37.840988391784187]
+	  Offset		  [-314.96034488585383, 37.840988391784208]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "476"
-	  Extents		  [2949.0, 1395.0]
+	  Extents		  [4608.0, 2180.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [-359.94390616278406, -7.6666666666667425]
 	}
 	Object {
 	  $ObjectID		  7
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [2358.0, 1115.0]
-	  ZoomFactor		  [0.59999999999999964]
-	  Offset		  [-229.68523201320818, 59.300581653221684]
+	  Extents		  [2356.0, 1115.0]
+	  ZoomFactor		  [0.99999999999999978]
+	  Offset		  [-346.24726763661818, 237.1228647663736]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "426"
-	  Extents		  [2358.0, 1115.0]
+	  Extents		  [2946.0, 1394.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [-61.498579621215413, -208.66666666666669]
 	}
@@ -95,18 +95,18 @@ Model {
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "429"
-	  Extents		  [4413.0, 1958.0]
+	  Extents		  [6895.0, 3060.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [215.74708353025107, -255.48135824664018]
 	}
 	Object {
 	  $ObjectID		  10
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "451"
-	  Extents		  [2358.0, 1115.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [116.26591190970453, -55.136762448471359]
+	  Extents		  [2946.0, 1394.0]
+	  ZoomFactor		  [0.79999999999999982]
+	  Offset		  [103.44914183918763, -21.963061297051354]
 	}
 	PropName		"EditorsInfo"
       }
@@ -118,9 +118,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "User"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Dec 03 23:31:46 2021"
-  RTWModifiedTimeStamp	  560475101
-  ModelVersionFormat	  "1.%<AutoIncrement:7>"
+  LastModifiedDate	  "Sat Dec 04 12:40:24 2021"
+  RTWModifiedTimeStamp	  560522233
+  ModelVersionFormat	  "1.%<AutoIncrement:22>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -215,7 +215,7 @@ Model {
       Version		      "1.16.2"
       Array {
 	Type			"Handle"
-	Dimension		9
+	Dimension		10
 	Simulink.SolverCC {
 	  $ObjectID		  13
 	  Version		  "1.16.2"
@@ -792,6 +792,98 @@ Model {
 	  CovStartTime		  0
 	  CovStopTime		  0
 	}
+	SSC.SimscapeCC {
+	  $ObjectID		  24
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    MECH.SimMechanicsCC {
+	      $ObjectID		      25
+	      Version		      "1.16.2"
+	      WarnOnRedundantConstraints on
+	      WarnOnSingularInitialAssembly off
+	      ShowCutJoints	      off
+	      VisOnUpdateDiagram      off
+	      VisDuringSimulation     off
+	      EnableVisSimulationTime on
+	      VisSampleTime	      "0"
+	      DisableBodyVisControl   off
+	      ShowCG		      on
+	      ShowCS		      on
+	      ShowOnlyPortCS	      off
+	      HighlightModel	      on
+	      FramesToBeSkipped	      "0"
+	      AnimationDelay	      "3"
+	      RecordAVI		      off
+	      CompressAVI	      on
+	      AutoFitVis	      "off"
+	      EnableSelection	      on
+	      LastVizWinPosition      "[-1 -1 -1 -1]"
+	      CamPosition	      "[0 0 0]"
+	      CamTarget		      "[0 0 -1]"
+	      CamUpVector	      "[0 1 0]"
+	      CamHeight		      "-1"
+	      CamViewAngle	      "0"
+	      VisBackgroundColor      "[0.9 0.9 0.95]"
+	      DefaultBodyColor	      "[1 0 0]"
+	      MDLBodyVisualizationType "Convex hull from body CS locations"
+	      OVRRIDBodyVisualizationType "NONE"
+	      Name		      "SimscapeMultibody1G"
+	    }
+	    simmechanics.ConfigurationSet {
+	      $ObjectID		      26
+	      Version		      "1.16.2"
+	      Description	      "Simscape Multibody"
+	      Array {
+		Type			"Handle"
+		Dimension		2
+		simmechanics.DiagnosticsConfigSet {
+		  $ObjectID		  27
+		  Version		  "1.16.2"
+		  Description		  "Diagnostics"
+		  Name			  "DiagnosticsConfigSet"
+		  SimMechanicsInvalidVisualProperty "warning"
+		  SimMechanicsCrossSectionNullEdge "warning"
+		  SimMechanicsUnconnectedFramePorts "warning"
+		  SimMechanicsUnconnectedGeometryPorts "warning"
+		  SimMechanicsRedundantBlock "warning"
+		  SimMechanicsConflictingReferenceFrames "warning"
+		  SimMechanicsRigidlyBoundBlock	"error"
+		  SimMechanicsUnsatisfiedHighPriorityTargets "warning"
+		  SimMechanicsJointTargetOverSpecification "error"
+		}
+		simmechanics.ExplorerConfigSet {
+		  $ObjectID		  28
+		  Version		  "1.16.2"
+		  Description		  "Explorer"
+		  Name			  "ExplorerConfigSet"
+		  SimMechanicsOpenEditorOnUpdate on
+		}
+		PropName		"Components"
+	      }
+	      Name		      "SimscapeMultibody"
+	    }
+	    PropName		    "Components"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogOpenViewer	  off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	}
 	PropName		"Components"
       }
       Name		      "Configuration"
@@ -800,13 +892,13 @@ Model {
       ConfigPrmDlgPosition     [ 195, 21, 1371, 889 ] 
     }
     Simulink.ConfigSet {
-      $ObjectID		      24
+      $ObjectID		      29
       Version		      "1.16.2"
       Array {
 	Type			"Handle"
-	Dimension		9
+	Dimension		10
 	Simulink.SolverCC {
-	  $ObjectID		  25
+	  $ObjectID		  30
 	  Version		  "1.16.2"
 	  StartTime		  "0.0"
 	  StopTime		  "20"
@@ -843,7 +935,7 @@ Model {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  26
+	  $ObjectID		  31
 	  Version		  "1.16.2"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
@@ -881,7 +973,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  27
+	  $ObjectID		  32
 	  Version		  "1.16.2"
 	  Array {
 	    Type		    "Cell"
@@ -939,7 +1031,7 @@ Model {
 	  AccelVerboseBuild	  off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  28
+	  $ObjectID		  33
 	  Version		  "1.16.2"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
@@ -1034,7 +1126,7 @@ Model {
 	  AllowAutomaticUnitConversions	on
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  29
+	  $ObjectID		  34
 	  Version		  "1.16.2"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
@@ -1076,7 +1168,7 @@ Model {
 	  UseSimulinkCoderFeatures on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  30
+	  $ObjectID		  35
 	  Version		  "1.16.2"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  EnableRefExpFcnMdlSchedulingChecks on
@@ -1092,7 +1184,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  31
+	  $ObjectID		  36
 	  Version		  "1.16.2"
 	  SFSimEcho		  on
 	  SimCtrlC		  on
@@ -1104,7 +1196,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  32
+	  $ObjectID		  37
 	  Version		  "1.16.2"
 	  Array {
 	    Type		    "Cell"
@@ -1178,7 +1270,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      33
+	      $ObjectID		      38
 	      Version		      "1.16.2"
 	      Array {
 		Type			"Cell"
@@ -1254,7 +1346,7 @@ Model {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      34
+	      $ObjectID		      39
 	      Version		      "1.16.2"
 	      Array {
 		Type			"Cell"
@@ -1348,7 +1440,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  35
+	  $ObjectID		  40
 	  Version		  "1.16.2"
 	  Description		  "Simulink Coverage Configuration Component"
 	  Name			  "Simulink Coverage"
@@ -1380,6 +1472,98 @@ Model {
 	  CovStartTime		  0
 	  CovStopTime		  0
 	}
+	SSC.SimscapeCC {
+	  $ObjectID		  41
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    MECH.SimMechanicsCC {
+	      $ObjectID		      42
+	      Version		      "1.16.2"
+	      WarnOnRedundantConstraints on
+	      WarnOnSingularInitialAssembly off
+	      ShowCutJoints	      off
+	      VisOnUpdateDiagram      off
+	      VisDuringSimulation     off
+	      EnableVisSimulationTime on
+	      VisSampleTime	      "0"
+	      DisableBodyVisControl   off
+	      ShowCG		      on
+	      ShowCS		      on
+	      ShowOnlyPortCS	      off
+	      HighlightModel	      on
+	      FramesToBeSkipped	      "0"
+	      AnimationDelay	      "3"
+	      RecordAVI		      off
+	      CompressAVI	      on
+	      AutoFitVis	      "off"
+	      EnableSelection	      on
+	      LastVizWinPosition      "[-1 -1 -1 -1]"
+	      CamPosition	      "[0 0 0]"
+	      CamTarget		      "[0 0 -1]"
+	      CamUpVector	      "[0 1 0]"
+	      CamHeight		      "-1"
+	      CamViewAngle	      "0"
+	      VisBackgroundColor      "[0.9 0.9 0.95]"
+	      DefaultBodyColor	      "[1 0 0]"
+	      MDLBodyVisualizationType "Convex hull from body CS locations"
+	      OVRRIDBodyVisualizationType "NONE"
+	      Name		      "SimscapeMultibody1G"
+	    }
+	    simmechanics.ConfigurationSet {
+	      $ObjectID		      43
+	      Version		      "1.16.2"
+	      Description	      "Simscape Multibody"
+	      Array {
+		Type			"Handle"
+		Dimension		2
+		simmechanics.DiagnosticsConfigSet {
+		  $ObjectID		  44
+		  Version		  "1.16.2"
+		  Description		  "Diagnostics"
+		  Name			  "DiagnosticsConfigSet"
+		  SimMechanicsInvalidVisualProperty "warning"
+		  SimMechanicsCrossSectionNullEdge "warning"
+		  SimMechanicsUnconnectedFramePorts "warning"
+		  SimMechanicsUnconnectedGeometryPorts "warning"
+		  SimMechanicsRedundantBlock "warning"
+		  SimMechanicsConflictingReferenceFrames "warning"
+		  SimMechanicsRigidlyBoundBlock	"error"
+		  SimMechanicsUnsatisfiedHighPriorityTargets "warning"
+		  SimMechanicsJointTargetOverSpecification "error"
+		}
+		simmechanics.ExplorerConfigSet {
+		  $ObjectID		  45
+		  Version		  "1.16.2"
+		  Description		  "Explorer"
+		  Name			  "ExplorerConfigSet"
+		  SimMechanicsOpenEditorOnUpdate on
+		}
+		PropName		"Components"
+	      }
+	      Name		      "SimscapeMultibody"
+	    }
+	    PropName		    "Components"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogOpenViewer	  off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	}
 	PropName		"Components"
       }
       Name		      "Configuration1"
@@ -1391,11 +1575,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    24
+    $ObjectID		    29
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    36
+    $ObjectID		    46
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -1456,6 +1640,13 @@ Model {
   }
   BlockParameterDefaults {
     Block {
+      BlockType		      ActionPort
+      InitializeStates	      "held"
+      PropagateVarSize	      "Only when execution is resumed"
+      DisallowConstTsAndPrmTs off
+      ActionType	      "unset"
+    }
+    Block {
       BlockType		      Constant
       Value		      "1"
       VectorParams1D	      on
@@ -1487,6 +1678,14 @@ Model {
       LockScale		      off
       RndMeth		      "Floor"
       SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      If
+      NumInputs		      "1"
+      IfExpression	      "u1 > 0"
+      ShowElse		      on
+      ZeroCross		      on
       SampleTime	      "-1"
     }
     Block {
@@ -1683,7 +1882,7 @@ Model {
   }
   System {
     Name		    "Sparus_3D_advance_model"
-    Location		    [-7, 0, 1926, 1064]
+    Location		    [-7, 0, 1925, 1064]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1695,9 +1894,9 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "60"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "727"
+    SIDHighWatermark	    "764"
     Block {
       BlockType		      ToWorkspace
       Name		      "Acc in B"
@@ -1761,7 +1960,7 @@ Model {
       SID		      "380"
       Position		      [275, 468, 350, 492]
       ZOrder		      -5
-      Value		      "[0 0 0 0 0 0]"
+      Value		      "[0 0 5 0 0 0]"
     }
     Block {
       BlockType		      Constant
@@ -1777,7 +1976,7 @@ Model {
       SID		      "579"
       Position		      [275, 613, 350, 637]
       ZOrder		      23
-      Value		      "[2 0 0 0 0 0]"
+      Value		      "[0 0 0 0 0 0]"
     }
     Block {
       BlockType		      Constant
@@ -1925,7 +2124,7 @@ Model {
       Variant		      off
       System {
 	Name			"Sparus Model"
-	Location		[-7, 0, 1926, 1064]
+	Location		[-6, 0, 1926, 1064]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1975,7 +2174,7 @@ Model {
 	  Variant		  off
 	  System {
 	    Name		    "Measure Simulation"
-	    Location		    [-6, 0, 1927, 1064]
+	    Location		    [-6, 0, 1926, 1064]
 	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -2281,7 +2480,7 @@ Model {
 	  Variant		  off
 	  System {
 	    Name		    "System(Thrusters+Nessie)"
-	    Location		    [-7, 0, 1926, 1064]
+	    Location		    [-6, 0, 1926, 1064]
 	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -2332,7 +2531,7 @@ Model {
 	      Variant		      off
 	      System {
 		Name			"Model Nessie"
-		Location		[-6, 0, 1927, 1064]
+		Location		[-6, 0, 1926, 1064]
 		Open			on
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
@@ -2692,7 +2891,7 @@ Model {
 	      Variant		      off
 	      System {
 		Name			"Model Thrusters"
-		Location		[-7, 0, 1926, 1064]
+		Location		[-6, 0, 1926, 1064]
 		Open			on
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
@@ -2704,7 +2903,7 @@ Model {
 		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"100"
+		ZoomFactor		"80"
 		Block {
 		  BlockType		  Inport
 		  Name			  "Voltage (%)"
@@ -2712,6 +2911,39 @@ Model {
 		  Position		  [160, 405, 220, 455]
 		  ZOrder		  -1
 		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Sum
+		  Name			  "Add"
+		  SID			  "742"
+		  Ports			  [2, 1]
+		  Position		  [1145, 162, 1175, 193]
+		  ZOrder		  89
+		  InputSameDT		  off
+		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+		  SaturateOnIntegerOverflow off
+		}
+		Block {
+		  BlockType		  Sum
+		  Name			  "Add1"
+		  SID			  "753"
+		  Ports			  [2, 1]
+		  Position		  [1145, 412, 1175, 443]
+		  ZOrder		  94
+		  InputSameDT		  off
+		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+		  SaturateOnIntegerOverflow off
+		}
+		Block {
+		  BlockType		  Sum
+		  Name			  "Add2"
+		  SID			  "764"
+		  Ports			  [2, 1]
+		  Position		  [1145, 662, 1175, 693]
+		  ZOrder		  99
+		  InputSameDT		  off
+		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+		  SaturateOnIntegerOverflow off
 		}
 		Block {
 		  BlockType		  Demux
@@ -2734,6 +2966,381 @@ Model {
 		  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 		  SaturateOnIntegerOverflow off
+		}
+		Block {
+		  BlockType		  If
+		  Name			  "If"
+		  SID			  "729"
+		  Ports			  [1, 2]
+		  Position		  [545, 161, 645, 199]
+		  ZOrder		  82
+		  IfExpression		  "u1 >= 0"
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem"
+		  SID			  "733"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [705, 202, 775, 238]
+		  ZOrder		  86
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "734"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "735"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "else"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "736"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem1"
+		  SID			  "737"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [705, 102, 775, 138]
+		  ZOrder		  87
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem1"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "738"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "739"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "then"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "740"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem2"
+		  SID			  "744"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [715, 452, 785, 488]
+		  ZOrder		  91
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem2"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "745"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "746"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "else"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "747"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem3"
+		  SID			  "748"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [715, 352, 785, 388]
+		  ZOrder		  92
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem3"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "749"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "750"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "then"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "751"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem4"
+		  SID			  "754"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [715, 702, 785, 738]
+		  ZOrder		  96
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem4"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "755"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "756"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "else"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "757"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  SubSystem
+		  Name			  "If Action\nSubsystem5"
+		  SID			  "758"
+		  Ports			  [1, 1, 0, 0, 0, 0, 0, 1]
+		  Position		  [715, 602, 785, 638]
+		  ZOrder		  97
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  Variant		  off
+		  System {
+		    Name		    "If Action\nSubsystem5"
+		    Location		    [342, 471, 840, 771]
+		    Open		    off
+		    ModelBrowserVisibility  off
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "A4"
+		    PaperUnits		    "centimeters"
+		    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "In1"
+		    SID			    "759"
+		    Position		    [75, 78, 105, 92]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    ActionPort
+		    Name		    "Action Port"
+		    SID			    "760"
+		    Position		    [170, 15, 229, 43]
+		    ZOrder		    -2
+		    ActionType		    "then"
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "Out1"
+		    SID			    "761"
+		    Position		    [325, 78, 355, 92]
+		    ZOrder		    -3
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    1
+		    SrcBlock		    "In1"
+		    SrcPort		    1
+		    DstBlock		    "Out1"
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
+		  BlockType		  If
+		  Name			  "If1"
+		  SID			  "743"
+		  Ports			  [1, 2]
+		  Position		  [555, 411, 655, 449]
+		  ZOrder		  90
+		  IfExpression		  "u1 >= 0"
+		}
+		Block {
+		  BlockType		  If
+		  Name			  "If2"
+		  SID			  "762"
+		  Ports			  [1, 2]
+		  Position		  [555, 661, 655, 699]
+		  ZOrder		  95
+		  IfExpression		  "u1 >= 0"
 		}
 		Block {
 		  BlockType		  Mux
@@ -2761,27 +3368,54 @@ Model {
 		  BlockType		  TransferFcn
 		  Name			  "Transfer Fcn"
 		  SID			  "689"
-		  Position		  [935, 142, 1065, 218]
+		  Position		  [945, 182, 1075, 258]
 		  ZOrder		  77
-		  Numerator		  "[Para.kt1]"
+		  Numerator		  "[Para.Rkt1]"
 		  Denominator		  "[Para.Tau1 1]"
 		}
 		Block {
 		  BlockType		  TransferFcn
 		  Name			  "Transfer Fcn1"
 		  SID			  "690"
-		  Position		  [935, 397, 1065, 463]
+		  Position		  [945, 437, 1075, 503]
 		  ZOrder		  78
-		  Numerator		  "[Para.kt2]"
+		  Numerator		  "[Para.Rkt2]"
 		  Denominator		  "[Para.Tau2 1]"
 		}
 		Block {
 		  BlockType		  TransferFcn
 		  Name			  "Transfer Fcn2"
 		  SID			  "691"
-		  Position		  [935, 647, 1065, 713]
+		  Position		  [945, 587, 1075, 653]
 		  ZOrder		  79
-		  Numerator		  "[Para.kt3]"
+		  Numerator		  "[Para.Fkt3]"
+		  Denominator		  "[Para.Tau3 1]"
+		}
+		Block {
+		  BlockType		  TransferFcn
+		  Name			  "Transfer Fcn3"
+		  SID			  "730"
+		  Position		  [945, 82, 1075, 158]
+		  ZOrder		  83
+		  Numerator		  "[Para.Fkt1]"
+		  Denominator		  "[Para.Tau1 1]"
+		}
+		Block {
+		  BlockType		  TransferFcn
+		  Name			  "Transfer Fcn4"
+		  SID			  "752"
+		  Position		  [945, 337, 1075, 403]
+		  ZOrder		  93
+		  Numerator		  "[Para.Fkt2]"
+		  Denominator		  "[Para.Tau2 1]"
+		}
+		Block {
+		  BlockType		  TransferFcn
+		  Name			  "Transfer Fcn5"
+		  SID			  "763"
+		  Position		  [945, 687, 1075, 753]
+		  ZOrder		  98
+		  Numerator		  "[Para.Rkt3]"
 		  Denominator		  "[Para.Tau3 1]"
 		}
 		Block {
@@ -2821,46 +3455,232 @@ Model {
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  143
-		  SrcBlock		  "Transfer Fcn"
-		  SrcPort		  1
-		  DstBlock		  "Mux"
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  145
-		  SrcBlock		  "Transfer Fcn1"
-		  SrcPort		  1
-		  DstBlock		  "Mux"
-		  DstPort		  2
-		}
-		Line {
-		  ZOrder		  147
-		  SrcBlock		  "Transfer Fcn2"
-		  SrcPort		  1
-		  DstBlock		  "Mux"
-		  DstPort		  3
-		}
-		Line {
-		  ZOrder		  187
+		  ZOrder		  195
 		  SrcBlock		  "Demux"
+		  SrcPort		  1
+		  Points		  [22, 0]
+		  Branch {
+		    ZOrder		    210
+		    Points		    [0, -60]
+		    DstBlock		    "If Action\nSubsystem1"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    207
+		    Points		    [0, 40]
+		    DstBlock		    "If Action\nSubsystem"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    204
+		    DstBlock		    "If"
+		    DstPort		    1
+		  }
+		}
+		Line {
+		  ZOrder		  201
+		  SrcBlock		  "If"
+		  SrcPort		  2
+		  Points		  [90, 0]
+		  DstBlock		  "If Action\nSubsystem"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  203
+		  SrcBlock		  "If Action\nSubsystem"
 		  SrcPort		  1
 		  DstBlock		  "Transfer Fcn"
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  188
+		  ZOrder		  208
+		  SrcBlock		  "If Action\nSubsystem1"
+		  SrcPort		  1
+		  DstBlock		  "Transfer Fcn3"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  209
+		  SrcBlock		  "If"
+		  SrcPort		  1
+		  Points		  [25, 0; 0, -83]
+		  DstBlock		  "If Action\nSubsystem1"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  242
+		  SrcBlock		  "Add"
+		  SrcPort		  1
+		  DstBlock		  "Mux"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  243
+		  SrcBlock		  "Transfer Fcn3"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, 50]
+		  DstBlock		  "Add"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  244
+		  SrcBlock		  "Transfer Fcn"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, -35]
+		  DstBlock		  "Add"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  253
 		  SrcBlock		  "Demux"
 		  SrcPort		  2
+		  Points		  [32, 0]
+		  Branch {
+		    ZOrder		    247
+		    DstBlock		    "If1"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    246
+		    Points		    [0, 40]
+		    DstBlock		    "If Action\nSubsystem2"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    245
+		    Points		    [0, -60]
+		    DstBlock		    "If Action\nSubsystem3"
+		    DstPort		    1
+		  }
+		}
+		Line {
+		  ZOrder		  249
+		  SrcBlock		  "If1"
+		  SrcPort		  2
+		  Points		  [90, 0]
+		  DstBlock		  "If Action\nSubsystem2"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  254
+		  SrcBlock		  "If Action\nSubsystem2"
+		  SrcPort		  1
 		  DstBlock		  "Transfer Fcn1"
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  189
+		  ZOrder		  255
+		  SrcBlock		  "If Action\nSubsystem3"
+		  SrcPort		  1
+		  DstBlock		  "Transfer Fcn4"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  252
+		  SrcBlock		  "If1"
+		  SrcPort		  1
+		  Points		  [25, 0; 0, -83]
+		  DstBlock		  "If Action\nSubsystem3"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  256
+		  SrcBlock		  "Transfer Fcn4"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, 50]
+		  DstBlock		  "Add1"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  257
+		  SrcBlock		  "Add1"
+		  SrcPort		  1
+		  DstBlock		  "Mux"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  258
+		  SrcBlock		  "Transfer Fcn1"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, -35]
+		  DstBlock		  "Add1"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  267
 		  SrcBlock		  "Demux"
 		  SrcPort		  3
+		  Points		  [32, 0]
+		  Branch {
+		    ZOrder		    261
+		    Points		    [0, -60]
+		    DstBlock		    "If Action\nSubsystem5"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    260
+		    Points		    [0, 40]
+		    DstBlock		    "If Action\nSubsystem4"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    259
+		    DstBlock		    "If2"
+		    DstPort		    1
+		  }
+		}
+		Line {
+		  ZOrder		  263
+		  SrcBlock		  "If2"
+		  SrcPort		  2
+		  Points		  [90, 0]
+		  DstBlock		  "If Action\nSubsystem4"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  269
+		  SrcBlock		  "If Action\nSubsystem4"
+		  SrcPort		  1
+		  DstBlock		  "Transfer Fcn5"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  268
+		  SrcBlock		  "If Action\nSubsystem5"
+		  SrcPort		  1
 		  DstBlock		  "Transfer Fcn2"
 		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  266
+		  SrcBlock		  "If2"
+		  SrcPort		  1
+		  Points		  [25, 0; 0, -83]
+		  DstBlock		  "If Action\nSubsystem5"
+		  DstPort		  ifaction
+		}
+		Line {
+		  ZOrder		  270
+		  SrcBlock		  "Add2"
+		  SrcPort		  1
+		  DstBlock		  "Mux"
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  271
+		  SrcBlock		  "Transfer Fcn2"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, 50]
+		  DstBlock		  "Add2"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  272
+		  SrcBlock		  "Transfer Fcn5"
+		  SrcPort		  1
+		  Points		  [30, 0; 0, -35]
+		  DstBlock		  "Add2"
+		  DstPort		  2
 		}
 	      }
 	    }
@@ -3105,7 +3925,7 @@ Model {
       SID		      "554"
       Position		      [265, 338, 365, 362]
       ZOrder		      22
-      Value		      "[-100 100 100]"
+      Value		      "[12 14 14]"
     }
     Block {
       BlockType		      Constant
