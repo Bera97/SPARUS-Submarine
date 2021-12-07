@@ -79,7 +79,6 @@ Vit_4=Displace_velocity(Para.S4.r,VitB);
 Ffb_4 =  Para.S4.Kq * abs(Vit_4).*Vit_4 ;
 Ff_4 = Drag_force_to_gravity_center(Para.S4.r,Ffb_4);
 
-
 % Right thruster
 Vit_5=Displace_velocity(Para.S5.r,VitB);
 Ffb_5 =  Para.S5.Kq * abs(Vit_5).*Vit_5 ;
@@ -91,8 +90,4 @@ Fp = Para.Eb * Thrust ;
 
 %% Accelearion computation :
 AccG = Para.Mg\ ((1*Ff_0+1*Ff_1+1*Ff_2+1*Ff_3+1*Ff_4+1*Ff_5) + Fa + Fg + Fp - Fc) ; % Mg\ = Mg^-1 computed at the gravity center of the Sparus
-
-
-toto = 1;
-
 

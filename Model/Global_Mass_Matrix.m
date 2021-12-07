@@ -71,8 +71,8 @@ MgamT = MgamLT + MgamRT; % added mass matrix - CG
 
 % ADDED MASS MATRIX (in the center of gravity)
 
-MAb = MgamT + MgamQQ + MgamANT + MgamUSBL + MgamSB % ADDED MASS MATRIX
+MAb = 1*MgamT + 1*MgamQQ + 1*MgamANT + 1*MgamUSBL + MgamSB; % ADDED MASS MATRIX
 
 % GENERALIZED MASS MATRIX (in the center of gravity)
 
-MGb = MBb + MAb % GENERALIZED MASS MATRIX
+MGb = MBb + MAb; % GENERALIZED MASS MATRIX
