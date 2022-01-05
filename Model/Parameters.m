@@ -6,10 +6,17 @@ Drag_Matrix;
 
 global Para
 
+%% Control Law integrators
+
+Para.integral_heave = 0;
+Para.integral_surge = 0;
+Para.integral_surge_pos =0;
+Para.turn_on_horizontal = 0;
+
 %% Initial Speed and position in Earth-fixed frame
 
-Para.ICPos = [0 0 2 0 0 0];
-Para.ICSpeed = [0 0 0 0 0 0] ;
+Para.ICPos = [0 0 0 0 0 0];
+Para.ICSpeed = [0 0 0 0 0 0];
 
 %% General parameters
 Para.rho_water = 1000 ;                     % Masse volumique de l'eau (kg/m^3)
@@ -241,7 +248,7 @@ Para.Tau = [Para.Tau1;Para.Tau2;Para.Tau3] ;
 
 %Para.Eb_F = zeros(3,3);
     
-%Para.Eb_M = zeros(3,3)  ;
+%Para.Eb_M = zeros(3,3);
 
 Para.Eb = Eb;
 

@@ -43,7 +43,7 @@ m44 = double(subs(m44));
 m55 = a55 * q2;
 m55 = double(subs(m55));
 
-%computing m66_
+%computing m66
 
 m66 = a66 * q1;
 m66 = double(subs(m66));

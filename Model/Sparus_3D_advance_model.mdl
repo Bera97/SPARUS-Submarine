@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.43"
+    ComputedModelVersion    "1.84"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -22,7 +22,7 @@ Model {
   MinMaxOverflowArchiveMode "Overwrite"
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
-  InitFcn		  "Para=Parameters()"
+  InitFcn		  "Para=Parameters()\n"
   StopFcn		  "Plotting"
   LastSavedArchitecture	  "win64"
   Object {
@@ -34,7 +34,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-6.0, 0.0, 1460.0, 830.0]
+      Location		      [-6.0, 8.0, 1460.0, 821.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -59,54 +59,54 @@ Model {
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "545"
-	  Extents		  [1767.0, 823.0]
+	  Extents		  [16458.0, 7669.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [658.3410753885521, 16.208140265199496]
+	  Offset		  [658.34107538855278, 16.20814026519929]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "476"
-	  Extents		  [1767.0, 823.0]
+	  Extents		  [16458.0, 7669.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-359.94390616278406, -7.6666666666667425]
+	  Offset		  [-359.94390616278361, -7.66666666666697]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1767.0, 823.0]
-	  ZoomFactor		  [0.59999999999999987]
-	  Offset		  [-94.489911279559919, -405.47969072213243]
+	  Extents		  [1766.0, 812.0]
+	  ZoomFactor		  [1.2499999999999998]
+	  Offset		  [-105.97175188201606, 149.16786932447815]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "426"
-	  Extents		  [7194.0, 3405.0]
+	  Extents		  [67001.0, 31711.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-61.498579621215413, -208.66666666666674]
+	  Offset		  [-61.498579621213139, -208.66666666666788]
 	}
 	Object {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "429"
-	  Extents		  [16835.0, 7470.0]
+	  Extents		  [156788.0, 69579.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [215.74708353025107, -255.48135824664041]
+	  Offset		  [215.74708353025198, -255.48135824664132]
 	}
 	Object {
 	  $ObjectID		  10
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "451"
-	  Extents		  [7194.0, 3405.0]
+	  Extents		  [67001.0, 31711.0]
 	  ZoomFactor		  [0.79999999999999982]
-	  Offset		  [103.44914183918763, -21.963061297051354]
+	  Offset		  [103.44914183919173, -21.963061297052263]
 	}
 	PropName		"EditorsInfo"
       }
@@ -118,9 +118,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "User"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Dec 07 12:40:37 2021"
-  RTWModifiedTimeStamp	  560781551
-  ModelVersionFormat	  "1.%<AutoIncrement:43>"
+  LastModifiedDate	  "Sat Dec 11 20:32:02 2021"
+  RTWModifiedTimeStamp	  561155248
+  ModelVersionFormat	  "1.%<AutoIncrement:84>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -901,7 +901,7 @@ Model {
 	  $ObjectID		  30
 	  Version		  "1.16.2"
 	  StartTime		  "0.0"
-	  StopTime		  "30"
+	  StopTime		  "60"
 	  AbsTol		  "auto"
 	  FixedStep		  "0.01"
 	  InitialStep		  "auto"
@@ -1569,7 +1569,7 @@ Model {
       Name		      "Configuration1"
       ExtraOptions	      "-aGenerateTraceInfo=0 -aIgnoreTestpoints=0 "
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 70, 71, 1780, 782 ] 
+      ConfigPrmDlgPosition     [ 333, 96, 1202, 703 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -1882,7 +1882,7 @@ Model {
   }
   System {
     Name		    "Sparus_3D_advance_model"
-    Location		    [-6, 0, 1454, 830]
+    Location		    [-6, 8, 1454, 829]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1894,9 +1894,9 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "60"
+    ZoomFactor		    "125"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "765"
+    SIDHighWatermark	    "774"
     Block {
       BlockType		      ToWorkspace
       Name		      "Acc in B"
@@ -1960,7 +1960,7 @@ Model {
       SID		      "380"
       Position		      [275, 468, 350, 492]
       ZOrder		      -5
-      Value		      "[0 0 5 0 0 0]"
+      Value		      "[0 0 0 0 0 0]"
     }
     Block {
       BlockType		      Constant
@@ -1992,7 +1992,6 @@ Model {
       SID		      "630"
       Position		      [470, 307, 500, 343]
       ZOrder		      40
-      CurrentSetting	      "0"
     }
     Block {
       BlockType		      ManualSwitch
@@ -2124,7 +2123,7 @@ Model {
       Variant		      off
       System {
 	Name			"Sparus Model"
-	Location		[-6, 0, 1454, 830]
+	Location		[-5, 4, 1455, 825]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2174,7 +2173,7 @@ Model {
 	  Variant		  off
 	  System {
 	    Name		    "Measure Simulation"
-	    Location		    [-6, 0, 1454, 830]
+	    Location		    [-5, 4, 1455, 825]
 	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -2480,7 +2479,7 @@ Model {
 	  Variant		  off
 	  System {
 	    Name		    "System(Thrusters+Nessie)"
-	    Location		    [-6, 0, 1926, 1064]
+	    Location		    [-5, 4, 1455, 825]
 	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -2531,7 +2530,7 @@ Model {
 	      Variant		      off
 	      System {
 		Name			"Model Nessie"
-		Location		[-6, 0, 1926, 1064]
+		Location		[-5, 4, 1455, 825]
 		Open			on
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
@@ -2891,7 +2890,7 @@ Model {
 	      Variant		      off
 	      System {
 		Name			"Model Thrusters"
-		Location		[-6, 0, 1926, 1064]
+		Location		[-5, 4, 1455, 825]
 		Open			on
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
@@ -3925,7 +3924,7 @@ Model {
       SID		      "554"
       Position		      [265, 338, 365, 362]
       ZOrder		      22
-      Value		      "[0 20 20]"
+      Value		      "[0 -24 10]"
     }
     Block {
       BlockType		      Constant
@@ -3934,13 +3933,6 @@ Model {
       Position		      [40, 95, 70, 125]
       ZOrder		      31
       IOType		      "siggen"
-    }
-    Line {
-      ZOrder		      116
-      SrcBlock		      "Manual Switch"
-      SrcPort		      1
-      DstBlock		      "Sparus Model"
-      DstPort		      1
     }
     Line {
       ZOrder		      98
@@ -4112,6 +4104,13 @@ Model {
       SrcBlock		      "Demux1"
       SrcPort		      1
       DstBlock		      "O. Poition in E1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      211
+      SrcBlock		      "Manual Switch"
+      SrcPort		      1
+      DstBlock		      "Sparus Model"
       DstPort		      1
     }
   }

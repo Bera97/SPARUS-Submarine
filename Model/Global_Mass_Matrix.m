@@ -19,7 +19,6 @@ R4 = 0.045; % Aproximative radius of the thruster assembly
 W4 = 0.106; % Aproximative width of the thruster assembly
 
 Ig = [0.4 0 0.04; 0 10.06 0; 0.04 0 10.07]; % Inertia matrix of the submarine
-%Ig = [0.4 0 0; 0 10.06 0; 0 0 10.07];
 rho = 1000; % Water density 
 
 % DISTANCE BETWEEN CG AND DIFFERENT CO'S - rg VECTORS
@@ -34,7 +33,7 @@ rgLT = [-0.49; -0.162; 0]; % Distance between the GC and the Left Thruster body 
 % BODY MASS MATRIX (in the center of gravity)
 
 M = [52 52 52]; % mass vector - not important
-MBb = [diag(M) zeros(3); zeros(3) Ig] % BODY MASS MATRIX
+MBb = [diag(M) zeros(3); zeros(3) Ig]; % BODY MASS MATRIX
 
 % ADDED MASS MATRIX OF THE SUBMARINE BODY
 
@@ -71,7 +70,7 @@ MgamT = MgamLT + MgamRT; % added mass matrix - CG
 
 % ADDED MASS MATRIX (in the center of gravity)
 
-MAb = 1*MgamT + 1*MgamQQ + 1*MgamANT + 1*MgamUSBL + MgamSB; % ADDED MASS MATRIX
+MAb = 1*MgamT + 0*MgamQQ + 1*MgamANT + 1*MgamUSBL + MgamSB; % ADDED MASS MATRIX
 
 % GENERALIZED MASS MATRIX (in the center of gravity)
 
