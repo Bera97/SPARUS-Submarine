@@ -2,7 +2,6 @@ function [Out] = Command(PosE,VitB,AccB)
 
 global Para
 
-%current_time  = get_param('Sparus_3D_advance_model','SimulationTime');
 
 %Depth PID
 
